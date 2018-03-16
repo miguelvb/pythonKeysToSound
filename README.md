@@ -7,11 +7,16 @@ En este caso el canal es el panel. Así que para un solo panel suena un sonido c
 
 ## Pasos a seguir
 
-Si ya se ha configurado la aplicación, solo hace falta ejecutar:
+Si ya se ha configurado la aplicación, solo hace falta ejecutar (ojo: en root mode):
 
 `sudo python key_sounds.py`
 
-Si falta configurar los sonidos/teclas:
+Esperar a que se cargen todos los wav.
+
+Tocar !!! 
+
+
+### Si falta configurar los sonidos/teclas:
 
 * Copiar configuración de los alumnos de aqui: https://docs.google.com/spreadsheets/d/1AdaSmZuft90rgtyk7IMEA1gnvLNOWD1A-Dnyl0NklEU/edit#gid=43141471
 

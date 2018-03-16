@@ -1,24 +1,16 @@
 # PLAY SOUNDS WHEN KEYS ARE PRESSED #####
 #########################################
 
-import termios, fcntl, sys, os
 import pygame.mixer
 from time import sleep
 from sys import exit
 import json
+from pynput import keyboard
+
+released = True
 
 mixer_config_file = 'mixer_config.json'
 config_file = 'files_config.json'
-
-
-## Keys config
-fd = sys.stdin.fileno()
-oldterm = termios.tcgetattr(fd)
-newattr = termios.tcgetattr(fd)
-newattr[3] = newattr[3] & ~termios.ICANON & ~termios.ECHO
-termios.tcsetattr(fd, termios.TCSANOW, newattr)
-oldflags = fcntl.fcntl(fd, fcntl.F_GETFL)
-fcntl.fcntl(fd, fcntl.F_SETFL, oldflags | os.O_NONBLOCK)
 
 ## json config read
 
@@ -45,10 +37,11 @@ print("Getting Samples Ready......")
 
 # init sounds from config
 for s in sounds:
+    print "Loading sound: " , s["name"]
     s["sound"] = pygame.mixer.Sound(s["file"])
     s["channel"] = get_channel(s)
 
-print("Sampler Ready.")
+print("....... Samples Loaded ........")
 
 # dirty hard coded : 
 musicas_panel = {
@@ -84,22 +77,47 @@ def get_sounds_by_key(sounds, key_):
     else:
         return []
 
-
-
-### MAIN PROGRAM ####
-try:
-    while 1:
-        try:
-            c = sys.stdin.read(1)
-            sound = get_sounds_by_key(sounds, c)
-            if(c != ""):
-                print("KEY: ", c)
+def on_press(key):
+    global time_pressed
+    global released
+    try:
+        kk = key.char
+        if released:
+            print " -- Pressed "
+            released = False
+            sound = get_sounds_by_key(sounds, kk)
             if(sound):
                 print("Playing sound", sound["name"])
                 sound["channel"].play(sound["sound"])
-            sleep(.01)
-        except IOError: 
-          pass
-finally:
-    termios.tcsetattr(fd, termios.TCSAFLUSH, oldterm)
-    fcntl.fcntl(fd, fcntl.F_SETFL, oldflags)
+        else:
+            pass
+
+    except AttributeError:
+        print "error--- "
+        pass
+
+def on_release(key):
+    global released
+    released = True
+    try:
+        print key, " Released "
+        sound = get_sounds_by_key(sounds, key)
+        if(sound):
+            print("Stopping sound", sound["name"])
+            sound["channel"].stop(sound["sound"])
+    except AttributeError:
+        pass
+    if key == keyboard.Key.esc:
+        # Stop listener
+        return False
+
+
+def get_current_key_input():
+    with keyboard.Listener(
+        on_press=on_press, 
+        on_release=on_release
+        ) as listener:
+        listener.join()
+
+
+get_current_key_input()
