@@ -18,13 +18,14 @@ for root, dirs, files in os.walk(dir):
         if file.endswith(".wav"):
             ff = os.path.join(root, file)
             f2 = ff.split("/")
-            #print(f2)
             grp = f2[4]
             name = f2[5]
             grp_idx = grp.split("-")[0]
             name_idx = name.split("-")[0]
-            #print(grp, name, grp_idx, name_idx)
             uid =  grp_idx + name_idx
+            ismusic = name.split('-')[1] == 'musica'
+            if(ismusic):
+                uid = uid + "-musica"
             dd = {
                 "file": ff, 
                 "group": grp, 
@@ -34,10 +35,8 @@ for root, dirs, files in os.walk(dir):
                 "uid": uid
             }
             cf = get_config(uid)
-            print(cf)
             dd.update(cf)
             data_dict.append(dd)
-            print(dd)
 
 with open(fjson, 'w') as outfile:
     json.dump(data_dict, outfile)

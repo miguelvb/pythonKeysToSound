@@ -49,6 +49,9 @@ El directorio de sonidos tiene que ser de la siguente forma, para poder recupera
 
 ![directorio](directorio_sounds.png)
 
+Si el sonido es una música, y no una historia de vida, entonces su nombre (fichero .wav) será de la forma:
+
+`01-musica-juan-elRocioDelAlba.wav`
 
 ## Convertir de mp3 a wav
 
