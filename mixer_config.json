@@ -1,0 +1,9 @@
+{
+	"mixer": {
+	
+		"channels": 8,
+		"frequency": 48000,
+		"size": -16,
+		"buffer": 1024
+	}
+}
