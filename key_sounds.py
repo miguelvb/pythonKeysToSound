@@ -37,10 +37,17 @@ m_buffer  = mixer_config["mixer"]["buffer"]
 ## pygame sounds init 
 pygame.mixer.init(freq, m_size, channels, m_buffer)
 
+def get_channel(s):
+    ismusic = s['ismusic']
+    if(ismusic):
+        return pygame.mixer.Channel(channels - 1) ## ultimo channel para las músicas.
+    else:
+        return pygame.mixer.Channel(int(s["panel"]) - 1)
+
 # init sounds from config
 for s in sounds:
     s["sound"] = pygame.mixer.Sound(s["file"])
-    s["channel"] = pygame.mixer.Channel(int(s["panel"]) - 1)
+    s["channel"] = get_channel(s)
 
 print("Sampler Ready.")
 

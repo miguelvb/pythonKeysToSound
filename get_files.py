@@ -32,7 +32,8 @@ for root, dirs, files in os.walk(dir):
                 "group_id": grp_idx, 
                 "name": name, 
                 "name_idx": name_idx, 
-                "uid": uid
+                "uid": uid,
+                "ismusic": ismusic
             }
             cf = get_config(uid)
             dd.update(cf)

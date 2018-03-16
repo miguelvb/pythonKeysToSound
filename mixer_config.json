@@ -1,7 +1,7 @@
 {
 	"mixer": {
 	
-		"channels": 8,
+		"channels": 9,
 		"frequency": 48000,
 		"size": -16,
 		"buffer": 2048
