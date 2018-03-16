@@ -9,7 +9,7 @@ import argparse
 
 from pydub import AudioSegment
 
-remove_mp3 = False # if we want to eliminate the mp3 files.
+remove_mp3 = True # if we want to eliminate the mp3 files.
 formats_to_convert = ['.mp3']
 dir_ = "./sounds/mp3/"
 

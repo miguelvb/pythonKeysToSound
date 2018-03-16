@@ -19,9 +19,17 @@ with open(ajson, 'w') as outfile:
 
 alumnos = data
 
-def get_config(uid):
-    res = [x for x in alumnos if x["uid"] == uid][0]
-    return res
+def get_config(s, ismusic):
+    if(ismusic):
+        idx =  s["music_id"]
+    else:
+        idx = s["uid"]
+    res = [x for x in alumnos if x["uid"] == idx ] 
+    
+    if(res):
+        return res[0]
+    else:
+        return False
 
 data_dict = []
 for root, dirs, files in os.walk(dir):
@@ -44,11 +52,13 @@ for root, dirs, files in os.walk(dir):
                 "name": name, 
                 "name_idx": name_idx, 
                 "uid": uid,
-                "ismusic": ismusic
+                "ismusic": ismusic,
+                "music_id": grp_idx + "-musica"
             }
-            cf = get_config(uid)
-            dd.update(cf)
-            data_dict.append(dd)
+            cf = get_config(dd, ismusic)
+            if(cf):
+                dd.update(cf)
+                data_dict.append(dd)
 
 with open(fjson, 'w') as outfile:
     json.dump(data_dict, outfile, indent=2)
