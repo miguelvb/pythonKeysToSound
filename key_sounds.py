@@ -38,7 +38,7 @@ print("Getting Samples Ready......")
 # init sounds from config
 for s in sounds:
     print "Loading sound: " , s["name"]
-    s["sound"] = pygame.mixer.Sound(s["file"])
+    #s["sound"] = pygame.mixer.Sound(s["file"])
     s["channel"] = get_channel(s)
 
 print("....... Samples Loaded ........")
@@ -88,7 +88,8 @@ def on_press(key):
             sound = get_sounds_by_key(sounds, kk)
             if(sound):
                 print("Playing sound", sound["name"])
-                sound["channel"].play(sound["sound"])
+                s = pygame.mixer.Sound(sound["file"])
+                sound["channel"].play(s)
         else:
             pass
 
@@ -104,7 +105,7 @@ def on_release(key):
         sound = get_sounds_by_key(sounds, key)
         if(sound):
             print("Stopping sound", sound["name"])
-            sound["channel"].stop(sound["sound"])
+            sound["channel"].stop()
     except AttributeError:
         pass
     if key == keyboard.Key.esc:
