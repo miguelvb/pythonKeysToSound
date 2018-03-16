@@ -7,6 +7,12 @@ En este caso el canal es el panel. Así que para un solo panel suena un sonido c
 
 ## Pasos a seguir
 
+Si ya se ha configurado la aplicación, solo hace falta ejecutar:
+
+`sudo python key_sounds.py`
+
+Si falta configurar los sonidos/teclas:
+
 * Copiar configuración de los alumnos de aqui: https://docs.google.com/spreadsheets/d/1AdaSmZuft90rgtyk7IMEA1gnvLNOWD1A-Dnyl0NklEU/edit#gid=43141471
 
 Un extracto:
@@ -22,6 +28,8 @@ panel,grupo,alumno,color,numero,colortexto,tecla,uid
 * Pasarlo a `csv` (`Download as csv...`). Renombrar a `alumnos.csv`.
 
 * Pasar del csv al json:  `python csv2json.py`
+
+* descargar los sonidos mp3 o wav y ponerlos en el directorio `sounds/mp3`.
 
 * Hacer la configuración json: `python get_files.py`
 
