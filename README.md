@@ -7,6 +7,18 @@ En este caso el canal es el panel. Así que para un solo panel suena un sonido c
 
 ## Pasos a seguir
 
+### instalar:
+
+En RPI `pygame` viene instalado. Sino se tiene pygame, instalar con
+
+`pip install pygame`
+
+Asimismo se necesita `pynput`:
+
+`pip install pynput`
+
+### Ejecutar
+
 Si ya se ha configurado la aplicación, solo hace falta ejecutar (ojo: en root mode):
 
 `sudo python key_sounds.py`
@@ -62,9 +74,6 @@ Si el sonido es una música, y no una historia de vida, entonces su nombre (fich
 
 * ejecutar:  `python convert_mp3_to_wav.py` (cambiar en el archivo el directorio a convertir y la opción de eliminar o no los mp3).
 
-## instalar pygame (osx, windows, linux)
-
-* puede que se necesite instalar `pygame`: `pip install pygame`
 
 
 
