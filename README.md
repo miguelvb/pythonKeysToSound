@@ -25,9 +25,7 @@ panel,grupo,alumno,color,numero,colortexto,tecla,uid
 
 ```
 
-* Pasarlo a `csv` (`Download as csv...`). Renombrar a `alumnos.csv`.
-
-* Pasar del csv al json:  `python csv2json.py`
+* Pasarlo a `csv` (`Download as csv...`). Asegurarse que se llama `alumnos.csv` y guardarlo en la carpeta del proyecto.
 
 * descargar los sonidos `.wav` y ponerlos en el directorio `sounds/wav`.
 
