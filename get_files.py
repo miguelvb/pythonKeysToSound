@@ -1,12 +1,23 @@
 import os
 import json
+import csv
 
 dir = './sounds/wav'
 fjson = 'files_config.json'
 aljson = 'alumnos.json'
 
-with open(aljson) as json_data:
-    alumnos = json.load(json_data)
+file_ = "alumnos.csv"
+ajson = "alumnos.json"
+data = []
+
+with open(file_) as f:
+    for row in csv.DictReader(f):
+        data.append(row)
+
+with open(ajson, 'w') as outfile:
+    json.dump(data, outfile, indent=2)
+
+alumnos = data
 
 def get_config(uid):
     res = [x for x in alumnos if x["uid"] == uid][0]
@@ -40,4 +51,4 @@ for root, dirs, files in os.walk(dir):
             data_dict.append(dd)
 
 with open(fjson, 'w') as outfile:
-    json.dump(data_dict, outfile)
+    json.dump(data_dict, outfile, indent=2)

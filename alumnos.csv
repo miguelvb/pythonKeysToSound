@@ -1,4 +1,12 @@
 panel,grupo,alumno,color,numero,colortexto,tecla,uid
+1,el-club-de-la-comedia,musica,,0,etiqueta,1,01-musica
+2,los-5-mejos,musica,,0,etiqueta,2,02-musica
+3,los-stars-rebeldes,musica,,0,etiqueta,3,03-musica
+4,los-creadores,musica,,0,etiqueta,4,04-musica
+5,good-readers,musica,,0,etiqueta,5,05-musica
+6,los-mejos,musica,,0,etiqueta,6,06-musica
+7,bad-bunny,musica,,0,etiqueta,7,07-musica
+8,friends-for-ever,musica,,0,etiqueta,8,08-musica
 1,el-club-de-la-comedia,paco,,1,amarillo,a,0101
 1,el-club-de-la-comedia,adan,,2,rojo,b,0102
 1,el-club-de-la-comedia,jordi,,3,verde,c,0103
