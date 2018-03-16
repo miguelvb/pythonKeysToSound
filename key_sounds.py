@@ -37,14 +37,6 @@ m_buffer  = mixer_config["mixer"]["buffer"]
 ## pygame sounds init 
 pygame.mixer.init(freq, m_size, channels, m_buffer)
 
-## channels
-channels = { 
-    "1": pygame.mixer.Channel(1),
-    "2": pygame.mixer.Channel(2),
-    "3": pygame.mixer.Channel(3),
-    "4": pygame.mixer.Channel(4)
-}
-
 # init sounds from config
 for s in sounds:
     s["sound"] = pygame.mixer.Sound(s["file"])

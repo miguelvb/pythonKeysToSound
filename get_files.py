@@ -1,7 +1,7 @@
 import os
 import json
 
-dir = './sounds/mp3'
+dir = './sounds/wav'
 fjson = 'files_config.json'
 aljson = 'alumnos.json'
 

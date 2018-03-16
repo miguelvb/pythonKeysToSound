@@ -29,7 +29,7 @@ panel,grupo,alumno,color,numero,colortexto,tecla,uid
 
 * Pasar del csv al json:  `python csv2json.py`
 
-* descargar los sonidos mp3 o wav y ponerlos en el directorio `sounds/mp3`.
+* descargar los sonidos `.wav` y ponerlos en el directorio `sounds/wav`.
 
 * Hacer la configuración json: `python get_files.py`
 
