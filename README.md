@@ -37,6 +37,18 @@ panel,grupo,alumno,color,numero,colortexto,tecla,uid
 
 `sudo python key_sounds.py`
 
+## Convenio de nombres de ficheros (importante)
+
+El programa asigna sonidos mediante la búsqueda de un identificador "único" por cada elemento (alumno).
+Ese `uid` se forma con el grupo (que es equivalente al panel), seguido de la numeración del alumno.
+Por ejemplo
+
+grupo 2, alumno 3 --> `uid = '0203'`
+
+El directorio de sonidos tiene que ser de la siguente forma, para poder recuperar ese uid:
+
+![directorio](directorio_sounds.png)
+
 
 ## Convertir de mp3 a wav
 
