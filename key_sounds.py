@@ -38,7 +38,7 @@ print("Getting Samples Ready......")
 
 # init sounds from config
 for s in sounds:
-    print "Loading sound: " , s["name"]
+    print("Loading sound: " , s["name"])
     #s["sound"] = pygame.mixer.Sound(s["file"])
     s["channel"] = get_channel(s)
 
@@ -58,11 +58,10 @@ musicas_panel = {
 
 def get_sounds_by_key(sounds, key_):
     selection = [x for x in sounds if x["tecla"] == key_]
-    print "selection", [ {"name": s["name"], "track": s["track"], "uid": s["uid"]} for s in selection]
+    print("selection", [ {"name": s["name"], "track": s["track"], "uid": s["uid"]} for s in selection])
     if(selection):
         s0 = selection[0] # si son musicas
         if(s0["ismusic"]):
-            print "MUSIC", len(selection), s0["panel"]
             # ver en cual se quedo:
             last = musicas_panel[s0["panel"]]["last_played"]
             total = len(selection)
@@ -70,7 +69,6 @@ def get_sounds_by_key(sounds, key_):
             next_ = last + 1
             if(next_ >= total):
                 next_ = 0
-            print last, total, next_
             musicas_panel[s0["panel"]]["last_played"] = next_
             return selection[next_]
         else:
@@ -85,7 +83,7 @@ def on_press(key):
     try:
         kk = key.char
         if released:
-            print " -- Pressed "
+            print("--- ", kk , " -- Pressed ")
             released = False
             sound = get_sounds_by_key(sounds, kk)
             if(sound):
@@ -96,15 +94,15 @@ def on_press(key):
             pass
 
     except AttributeError:
-        print "error--- "
+        print("error--- ")
         pass
 
 def on_release(key):
     global released
     released = True
     try:
-        print key, " Released "
-        sound = get_sounds_by_key(sounds, key)
+        print("---  ", key.char, " --- Released ")
+        sound = get_sounds_by_key(sounds, key.char)
         if(sound):
             print("Stopping sound", sound["name"])
             sound["channel"].stop()

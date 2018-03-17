@@ -74,6 +74,8 @@ Si el sonido es una música, y no una historia de vida, entonces su nombre (fich
 
 * ejecutar:  `python convert_mp3_to_wav.py` (cambiar en el archivo el directorio a convertir y la opción de eliminar o no los mp3).
 
+## Ejecutar aplicación al iniciar linux de forma automática:
 
+https://raspberrypi.stackexchange.com/a/43771
 
 
