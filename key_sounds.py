@@ -8,6 +8,7 @@ import json
 from pynput import keyboard
 
 released = True
+audio_sound = False
 
 mixer_config_file = 'mixer_config.json'
 config_file = 'files_config.json'
@@ -80,6 +81,7 @@ def get_sounds_by_key(sounds, key_):
 def on_press(key):
     global time_pressed
     global released
+    global audio_sound
     try:
         kk = key.char
         if released:
@@ -88,8 +90,8 @@ def on_press(key):
             sound = get_sounds_by_key(sounds, kk)
             if(sound):
                 print("Playing sound", sound["name"])
-                s = pygame.mixer.Sound(sound["file"])
-                sound["channel"].play(s)
+                audio_sound = pygame.mixer.Sound(sound["file"])
+                sound["channel"].play(audio_sound)
         else:
             pass
 
