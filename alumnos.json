@@ -1,5 +1,16 @@
 [
   {
+    "uid": "", 
+    "color": "blanco", 
+    "alumno": "", 
+    "numero": "", 
+    "track": "", 
+    "colortexto": "", 
+    "tecla": "", 
+    "grupo": "TIERRAS", 
+    "panel": ""
+  }, 
+  {
     "uid": "01-musica", 
     "color": "", 
     "alumno": "musica", 
@@ -226,7 +237,7 @@
     "numero": "3", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "m", 
+    "tecla": "M", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3"
   }, 
@@ -237,7 +248,7 @@
     "numero": "4", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "n", 
+    "tecla": "N", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3"
   }, 
@@ -248,7 +259,7 @@
     "numero": "5", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "o", 
+    "tecla": "O", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3"
   }, 
@@ -259,7 +270,7 @@
     "numero": "6", 
     "track": "1", 
     "colortexto": "gris", 
-    "tecla": "p", 
+    "tecla": "P", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3"
   }, 
@@ -270,7 +281,7 @@
     "numero": "7", 
     "track": "1", 
     "colortexto": "blanco", 
-    "tecla": "q", 
+    "tecla": "Q", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3"
   }, 
@@ -281,7 +292,7 @@
     "numero": "1", 
     "track": "1", 
     "colortexto": "amarillo", 
-    "tecla": "r", 
+    "tecla": "R", 
     "grupo": "los-creadores", 
     "panel": "4"
   }, 
@@ -292,7 +303,7 @@
     "numero": "2", 
     "track": "1", 
     "colortexto": "rojo", 
-    "tecla": "s", 
+    "tecla": "S", 
     "grupo": "los-creadores", 
     "panel": "4"
   }, 
@@ -303,7 +314,7 @@
     "numero": "3", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "t", 
+    "tecla": "T", 
     "grupo": "los-creadores", 
     "panel": "4"
   }, 
@@ -314,7 +325,7 @@
     "numero": "4", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "u", 
+    "tecla": "U", 
     "grupo": "los-creadores", 
     "panel": "4"
   }, 
@@ -325,7 +336,7 @@
     "numero": "5", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "v", 
+    "tecla": "V", 
     "grupo": "los-creadores", 
     "panel": "4"
   }, 
@@ -336,7 +347,7 @@
     "numero": "6", 
     "track": "1", 
     "colortexto": "gris", 
-    "tecla": "w", 
+    "tecla": "W", 
     "grupo": "los-creadores", 
     "panel": "4"
   }, 
@@ -468,7 +479,7 @@
     "numero": "1", 
     "track": "1", 
     "colortexto": "amarillo", 
-    "tecla": "L", 
+    "tecla": "m", 
     "grupo": "bad-bunny", 
     "panel": "7"
   }, 
@@ -479,7 +490,7 @@
     "numero": "2", 
     "track": "1", 
     "colortexto": "rojo", 
-    "tecla": "M", 
+    "tecla": "n", 
     "grupo": "bad-bunny", 
     "panel": "7"
   }, 
@@ -490,7 +501,7 @@
     "numero": "3", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "N", 
+    "tecla": "o", 
     "grupo": "bad-bunny", 
     "panel": "7"
   }, 
@@ -501,7 +512,7 @@
     "numero": "4", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "O", 
+    "tecla": "p", 
     "grupo": "bad-bunny", 
     "panel": "7"
   }, 
@@ -512,7 +523,7 @@
     "numero": "5", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "P", 
+    "tecla": "q", 
     "grupo": "bad-bunny", 
     "panel": "7"
   }, 
@@ -523,7 +534,7 @@
     "numero": "6", 
     "track": "1", 
     "colortexto": "gris", 
-    "tecla": "Q", 
+    "tecla": "r", 
     "grupo": "bad-bunny", 
     "panel": "7"
   }, 
@@ -534,7 +545,7 @@
     "numero": "1", 
     "track": "1", 
     "colortexto": "amarillo", 
-    "tecla": "R", 
+    "tecla": "s", 
     "grupo": "friends-for-ever", 
     "panel": "8"
   }, 
@@ -545,7 +556,7 @@
     "numero": "2", 
     "track": "1", 
     "colortexto": "rojo", 
-    "tecla": "S", 
+    "tecla": "t", 
     "grupo": "friends-for-ever", 
     "panel": "8"
   }, 
@@ -556,7 +567,7 @@
     "numero": "3", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "T", 
+    "tecla": "u", 
     "grupo": "friends-for-ever", 
     "panel": "8"
   }, 
@@ -567,7 +578,7 @@
     "numero": "4", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "U", 
+    "tecla": "v", 
     "grupo": "friends-for-ever", 
     "panel": "8"
   }, 
@@ -578,7 +589,7 @@
     "numero": "5", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "V", 
+    "tecla": "w", 
     "grupo": "friends-for-ever", 
     "panel": "8"
   }

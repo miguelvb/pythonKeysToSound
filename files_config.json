@@ -360,39 +360,39 @@
     "group_id": "02"
   }, 
   {
-    "uid": "0301", 
-    "color": "", 
-    "music_id": "03-musica", 
-    "ismusic": false, 
-    "numero": "1", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/01-luisa.wav", 
-    "grupo": "los-stars-rebeldes", 
-    "panel": "3", 
-    "group": "03-los-star-rebeldes", 
-    "name": "01-luisa.wav", 
-    "name_idx": "01", 
-    "alumno": "nadia", 
-    "track": "1", 
-    "colortexto": "amarillo", 
-    "tecla": "k", 
-    "group_id": "03"
-  }, 
-  {
     "uid": "03-musica", 
     "color": "", 
     "music_id": "03-musica", 
     "ismusic": true, 
     "numero": "0", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/01-musica-luisa-Nueva Rumba Portuguesa BAILE SARA KIZOMBA   Dj Miguel Augusto.wav", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/01-musica-nadia-Leo Rojas - Der einsame Hirte (Videoclip).wav", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3", 
     "group": "03-los-star-rebeldes", 
-    "name": "01-musica-luisa-Nueva Rumba Portuguesa BAILE SARA KIZOMBA   Dj Miguel Augusto.wav", 
+    "name": "01-musica-nadia-Leo Rojas - Der einsame Hirte (Videoclip).wav", 
     "name_idx": "01", 
     "alumno": "musica", 
     "track": "4", 
     "colortexto": "etiqueta", 
     "tecla": "3", 
+    "group_id": "03"
+  }, 
+  {
+    "uid": "0301", 
+    "color": "", 
+    "music_id": "03-musica", 
+    "ismusic": false, 
+    "numero": "1", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/01-nadia.wav", 
+    "grupo": "los-stars-rebeldes", 
+    "panel": "3", 
+    "group": "03-los-star-rebeldes", 
+    "name": "01-nadia.wav", 
+    "name_idx": "01", 
+    "alumno": "nadia", 
+    "track": "1", 
+    "colortexto": "amarillo", 
+    "tecla": "k", 
     "group_id": "03"
   }, 
   {
@@ -437,11 +437,11 @@
     "music_id": "03-musica", 
     "ismusic": true, 
     "numero": "0", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/03-musica-nadia-Leo Rojas - Der einsame Hirte (Videoclip).wav", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/03-musica-sergio indios del sol - 01 - bolivia - carnaval d'oruro.wav", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3", 
     "group": "03-los-star-rebeldes", 
-    "name": "03-musica-nadia-Leo Rojas - Der einsame Hirte (Videoclip).wav", 
+    "name": "03-musica-sergio indios del sol - 01 - bolivia - carnaval d'oruro.wav", 
     "name_idx": "03", 
     "alumno": "musica", 
     "track": "4", 
@@ -455,34 +455,16 @@
     "music_id": "03-musica", 
     "ismusic": false, 
     "numero": "3", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/03-nadia.wav", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/03-sergio.wav", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3", 
     "group": "03-los-star-rebeldes", 
-    "name": "03-nadia.wav", 
+    "name": "03-sergio.wav", 
     "name_idx": "03", 
     "alumno": "sergio", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "m", 
-    "group_id": "03"
-  }, 
-  {
-    "uid": "03-musica", 
-    "color": "", 
-    "music_id": "03-musica", 
-    "ismusic": true, 
-    "numero": "0", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/04-musica-sergio indios del sol - 01 - bolivia - carnaval d'oruro.wav", 
-    "grupo": "los-stars-rebeldes", 
-    "panel": "3", 
-    "group": "03-los-star-rebeldes", 
-    "name": "04-musica-sergio indios del sol - 01 - bolivia - carnaval d'oruro.wav", 
-    "name_idx": "04", 
-    "alumno": "musica", 
-    "track": "4", 
-    "colortexto": "etiqueta", 
-    "tecla": "3", 
+    "tecla": "M", 
     "group_id": "03"
   }, 
   {
@@ -491,34 +473,16 @@
     "music_id": "03-musica", 
     "ismusic": false, 
     "numero": "4", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/04-sergio.wav", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/04-alejandro.wav", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3", 
     "group": "03-los-star-rebeldes", 
-    "name": "04-sergio.wav", 
+    "name": "04-alejandro.wav", 
     "name_idx": "04", 
     "alumno": "alejandro", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "n", 
-    "group_id": "03"
-  }, 
-  {
-    "uid": "0305", 
-    "color": "", 
-    "music_id": "03-musica", 
-    "ismusic": false, 
-    "numero": "5", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/05-alejandro.wav", 
-    "grupo": "los-stars-rebeldes", 
-    "panel": "3", 
-    "group": "03-los-star-rebeldes", 
-    "name": "05-alejandro.wav", 
-    "name_idx": "05", 
-    "alumno": "luisa", 
-    "track": "1", 
-    "colortexto": "azul", 
-    "tecla": "o", 
+    "tecla": "N", 
     "group_id": "03"
   }, 
   {
@@ -527,11 +491,47 @@
     "music_id": "03-musica", 
     "ismusic": true, 
     "numero": "0", 
-    "file": "./sounds/wav/5A/03-los-star-rebeldes/05-musica-alejandro-The Beatles - Don't Let Me Down.wav", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/04-musica-alejandro-The Beatles - Don't Let Me Down.wav", 
     "grupo": "los-stars-rebeldes", 
     "panel": "3", 
     "group": "03-los-star-rebeldes", 
-    "name": "05-musica-alejandro-The Beatles - Don't Let Me Down.wav", 
+    "name": "04-musica-alejandro-The Beatles - Don't Let Me Down.wav", 
+    "name_idx": "04", 
+    "alumno": "musica", 
+    "track": "4", 
+    "colortexto": "etiqueta", 
+    "tecla": "3", 
+    "group_id": "03"
+  }, 
+  {
+    "uid": "0305", 
+    "color": "", 
+    "music_id": "03-musica", 
+    "ismusic": false, 
+    "numero": "5", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/05-luisa.wav", 
+    "grupo": "los-stars-rebeldes", 
+    "panel": "3", 
+    "group": "03-los-star-rebeldes", 
+    "name": "05-luisa.wav", 
+    "name_idx": "05", 
+    "alumno": "luisa", 
+    "track": "1", 
+    "colortexto": "azul", 
+    "tecla": "O", 
+    "group_id": "03"
+  }, 
+  {
+    "uid": "03-musica", 
+    "color": "", 
+    "music_id": "03-musica", 
+    "ismusic": true, 
+    "numero": "0", 
+    "file": "./sounds/wav/5A/03-los-star-rebeldes/05-musica-luisa-Nueva Rumba Portuguesa BAILE SARA KIZOMBA   Dj Miguel Augusto.wav", 
+    "grupo": "los-stars-rebeldes", 
+    "panel": "3", 
+    "group": "03-los-star-rebeldes", 
+    "name": "05-musica-luisa-Nueva Rumba Portuguesa BAILE SARA KIZOMBA   Dj Miguel Augusto.wav", 
     "name_idx": "05", 
     "alumno": "musica", 
     "track": "4", 
@@ -554,7 +554,7 @@
     "alumno": "madeleine", 
     "track": "1", 
     "colortexto": "gris", 
-    "tecla": "p", 
+    "tecla": "P", 
     "group_id": "03"
   }, 
   {
@@ -590,7 +590,7 @@
     "alumno": "maria", 
     "track": "1", 
     "colortexto": "blanco", 
-    "tecla": "q", 
+    "tecla": "Q", 
     "group_id": "03"
   }, 
   {
@@ -626,7 +626,7 @@
     "alumno": "antoniojesus", 
     "track": "1", 
     "colortexto": "amarillo", 
-    "tecla": "r", 
+    "tecla": "R", 
     "group_id": "04"
   }, 
   {
@@ -662,7 +662,7 @@
     "alumno": "javier", 
     "track": "1", 
     "colortexto": "rojo", 
-    "tecla": "s", 
+    "tecla": "S", 
     "group_id": "04"
   }, 
   {
@@ -698,7 +698,7 @@
     "alumno": "dina", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "t", 
+    "tecla": "T", 
     "group_id": "04"
   }, 
   {
@@ -752,7 +752,7 @@
     "alumno": "naiara", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "u", 
+    "tecla": "U", 
     "group_id": "04"
   }, 
   {
@@ -788,7 +788,7 @@
     "alumno": "rocio", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "v", 
+    "tecla": "V", 
     "group_id": "04"
   }, 
   {
@@ -806,7 +806,7 @@
     "alumno": "loubna", 
     "track": "1", 
     "colortexto": "gris", 
-    "tecla": "w", 
+    "tecla": "W", 
     "group_id": "04"
   }, 
   {
@@ -1220,7 +1220,7 @@
     "alumno": "maricarmen", 
     "track": "1", 
     "colortexto": "amarillo", 
-    "tecla": "L", 
+    "tecla": "m", 
     "group_id": "07"
   }, 
   {
@@ -1256,7 +1256,7 @@
     "alumno": "gloria", 
     "track": "1", 
     "colortexto": "rojo", 
-    "tecla": "M", 
+    "tecla": "n", 
     "group_id": "07"
   }, 
   {
@@ -1292,7 +1292,7 @@
     "alumno": "keilyn", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "N", 
+    "tecla": "o", 
     "group_id": "07"
   }, 
   {
@@ -1328,7 +1328,7 @@
     "alumno": "leidy", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "O", 
+    "tecla": "p", 
     "group_id": "07"
   }, 
   {
@@ -1364,7 +1364,7 @@
     "alumno": "adriana", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "P", 
+    "tecla": "q", 
     "group_id": "07"
   }, 
   {
@@ -1400,7 +1400,7 @@
     "alumno": "pablo", 
     "track": "1", 
     "colortexto": "gris", 
-    "tecla": "Q", 
+    "tecla": "r", 
     "group_id": "07"
   }, 
   {
@@ -1436,7 +1436,7 @@
     "alumno": "rosa", 
     "track": "1", 
     "colortexto": "amarillo", 
-    "tecla": "R", 
+    "tecla": "s", 
     "group_id": "08"
   }, 
   {
@@ -1472,7 +1472,7 @@
     "alumno": "pilar", 
     "track": "1", 
     "colortexto": "rojo", 
-    "tecla": "S", 
+    "tecla": "t", 
     "group_id": "08"
   }, 
   {
@@ -1508,7 +1508,7 @@
     "alumno": "sheyla", 
     "track": "1", 
     "colortexto": "verde", 
-    "tecla": "T", 
+    "tecla": "u", 
     "group_id": "08"
   }, 
   {
@@ -1526,7 +1526,7 @@
     "alumno": "miguelangel", 
     "track": "1", 
     "colortexto": "marron", 
-    "tecla": "U", 
+    "tecla": "v", 
     "group_id": "08"
   }, 
   {
@@ -1562,7 +1562,7 @@
     "alumno": "christian", 
     "track": "1", 
     "colortexto": "azul", 
-    "tecla": "V", 
+    "tecla": "w", 
     "group_id": "08"
   }, 
   {
